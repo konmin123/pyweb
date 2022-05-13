@@ -1,7 +1,5 @@
-from blog.models import Note
 
-
-def note_created(note: Note) -> dict:
+def note_created(note) -> dict:
     return {
         "id": note.id,
         "title": note.title,
