@@ -18,5 +18,4 @@ from . import views
 
 urlpatterns = [
     path('hello/', views.Hello.as_view()),
-    path('', views.IndexView.as_view())
 ]
